@@ -19,3 +19,86 @@ li {
 button {
     cursor: pointer;
 }
+
+/* header */
+
+.header {
+    padding-top: 38px;
+}
+
+.header_lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.header_img{
+    width: 40px;
+    height: 40px;
+}
+
+.header_logo_title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 39px;
+    color: #353532;
+}
+
+.header_title {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.header_subtitle {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #353532;
+}
+
+
+.header_butons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header_button {
+    width: 104px;
+    height: 35px;
+    border-radius: 16px;
+    background: #00835A;
+    border: none;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: white;
+
+}
+
+.green {
+    width: 104px;
+    height: 35px;
+    border-radius: 16px;
+    background: transparent;
+    border: none;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    color: #353532;
+
+}
