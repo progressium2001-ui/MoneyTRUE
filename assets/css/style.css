@@ -32,14 +32,14 @@ button {
     justify-content: space-between;
 }
 
-.header_logo{
+.header_logo {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
 
-.header_img{
+.header_img {
     width: 40px;
     height: 40px;
 }
@@ -100,5 +100,125 @@ button {
     font-style: Regular;
     font-size: 15px;
     color: #353532;
+
+}
+
+
+
+/* footer */
+
+.footer {
+    background: #202424;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer_one {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.footer_title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    color: #BFC5C5;
+}
+
+.footer_subtitle {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #8B9292;
+    width: 287px;
+
+}
+
+.footer_button {
+    width: 107px;
+    height: 27px;
+    background: #00835A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    gap: 10px;
+
+}
+
+.footer_button_title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.footer_right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer_two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_end {
+    background: #14141433;
+    border: gray;
+    width: 1200px;
+    height: 89px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_logo_info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_logo_title {
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #8B9292;
+}
+
+.footer_images{
+display: flex;
+gap: 20px;
+}
+
+.footer_info{
+    display: flex;
+    gap: 20px;
 
 }
